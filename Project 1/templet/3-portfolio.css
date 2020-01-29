@@ -1,0 +1,90 @@
+body {
+    text-align: center;
+    color: lightgrey;
+    background-color: rgb(73, 73, 73);
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    font-language-override: normal;
+}
+h1 {
+    font-style: oblique;
+    width: auto;
+    height: 32px;
+    background-color: maroon;
+    font-size: 28px;
+    grid-column: span 2;
+    grid-row-start: 1;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(2,300);
+    grid-template-rows: 32px 32px 408px 32px;
+    grid-gap: 12px;
+}
+#bio {
+    width: auto;
+    height: 400px;
+    background-color: maroon;
+    text-align: left;
+    padding: 4px;
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+
+#tempbio {
+    width: 300px;
+    height: 32;
+    background-color: maroon;
+    font-style: oblique;
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+#hobbies {
+    font-style: oblique;
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+#likes {
+    text-align: left;
+    display: grid;
+    grid-template-columns: 150px,150px;
+    grid-auto-rows: 200px,200px;
+    grid-column-start: 2;
+    grid-row-start: 3;
+    grid-gap: 6px;
+}
+#music {
+    width: 150;
+    height: 200;
+    background-color: maroon;
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+#cook {
+    width: 150;
+    height: 200;
+    background-color: maroon;
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+#travel {
+    width: 150;
+    height: 200;
+    background-color: maroon;
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+#misc {
+    width: 150;
+    height: 200;
+    background-color: maroon;
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+h3 {
+    text-align: center;
+}
+footer {
+    grid-column: span 2;
+    grid-row-start: 4;
+}

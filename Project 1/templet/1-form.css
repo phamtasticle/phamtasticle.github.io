@@ -1,0 +1,54 @@
+body {
+    background-image: linear-gradient(to top left, cyan, orange);
+    text-align: center;
+    font-style: "Open Sans";
+    
+}
+
+form {
+    background-color: white;
+    display: inline-block;
+    padding: 10px 15px;
+    border: none;
+    width: 300px;
+    font-size: small;
+    height: 470px;
+
+}
+fieldset{
+    text-align: left;
+}
+
+h2 {
+    font-size: medium;
+    text-decoration: underline;
+    text-decoration-color: teal ;
+}
+
+.input {
+    word-spacing: 30px;
+
+}
+
+input[type="text"] {
+    background-color: lightgrey;
+    border-radius: 2px;
+}
+
+textarea {
+    background-color: lightgrey;
+    border-radius: 2px;
+}
+input[type="submit"] {
+    background-color: teal;
+    color: white;
+    transition-duration: .3s;
+    height: 25px;
+    width: 75px;
+    
+}
+input[type="submit"]:hover {
+    background-color: skyblue;
+    
+}
+
