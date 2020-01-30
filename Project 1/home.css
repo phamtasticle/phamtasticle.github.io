@@ -1,4 +1,13 @@
-.justify-content-center {
-    align-items: center;
-    color: red;
+.nav-item {
+    display:inline-block;
+    border-right:2px solid;
+}
+.nav-item:last-child {
+    border-right:none;
+}
+.navbar-brand {
+    display:inline-block;
+    border-right:2px solid rgb(134, 113, 105);
+    padding-right: 40px;
+    padding-left: 30px;
 }
