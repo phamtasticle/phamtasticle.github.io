@@ -1,6 +1,6 @@
 .nav-item {
     display:inline-block;
-    border-right:2px solid;
+    border-right:2px solid rgb(134, 113, 105);
 }
 .nav-item:last-child {
     border-right:none;
@@ -8,6 +8,12 @@
 .navbar-brand {
     display:inline-block;
     border-right:2px solid rgb(134, 113, 105);
-    padding-right: 40px;
+    padding-right: 38px;
     padding-left: 30px;
+}
+.jumbotron{
+    background-image: linear-gradient(to top, rgb(73, 73, 73), orange);
+}
+body {
+    background-color: rgb(73, 73, 73);
 }
