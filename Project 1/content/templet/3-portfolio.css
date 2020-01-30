@@ -6,85 +6,75 @@ body {
     font-family: 'Times New Roman', Times, serif;
     font-language-override: normal;
 }
+.nav-item {
+    display:inline-block;
+    border-right:2px solid rgb(134, 113, 105);
+}
+.nav-item:last-child {
+    border-right:none;
+}
+.navbar-brand {
+    display:inline-block;
+    border-right:2px solid rgb(134, 113, 105);
+    padding-right: 38px;
+    padding-left: 30px;
+}
 h1 {
     font-style: oblique;
-    width: auto;
-    height: 32px;
+    
     background-color: maroon;
     font-size: 28px;
-    grid-column: span 2;
-    grid-row-start: 1;
+    
 }
 .container {
     display: grid;
-    grid-template-columns: repeat(2,300);
-    grid-template-rows: 32px 32px 408px 32px;
-    grid-gap: 12px;
+    
 }
 #bio {
-    width: auto;
-    height: 400px;
+    
     background-color: maroon;
     text-align: left;
     padding: 4px;
-    grid-column-start: 1;
-    grid-row-start: 3;
+    
 }
 
 #tempbio {
-    width: 300px;
-    height: 32;
+
     background-color: maroon;
     font-style: oblique;
-    grid-column-start: 1;
-    grid-row-start: 2;
+    
 }
 #hobbies {
     font-style: oblique;
-    grid-column-start: 2;
-    grid-row-start: 2;
-}
-#likes {
-    text-align: left;
-    display: grid;
-    grid-template-columns: 150px,150px;
-    grid-auto-rows: 200px,200px;
-    grid-column-start: 2;
-    grid-row-start: 3;
-    grid-gap: 6px;
-}
-#music {
-    width: 150;
-    height: 200;
     background-color: maroon;
-    grid-column-start: 1;
-    grid-row-start: 1;
+    
+}
+
+#music {
+    
+    background-color: maroon;
+    
 }
 #cook {
-    width: 150;
-    height: 200;
+    
     background-color: maroon;
-    grid-column-start: 2;
-    grid-row-start: 1;
+    
 }
 #travel {
-    width: 150;
-    height: 200;
+    
     background-color: maroon;
-    grid-column-start: 2;
-    grid-row-start: 2;
+    
 }
 #misc {
-    width: 150;
-    height: 200;
     background-color: maroon;
-    grid-column-start: 1;
-    grid-row-start: 2;
+    
+}
+#row-1 {
+    padding-top: 45px;
 }
 h3 {
     text-align: center;
 }
 footer {
-    grid-column: span 2;
-    grid-row-start: 4;
+    
 }

@@ -5,88 +5,111 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="templet/3-portfolio.css">
-    
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
+    <title>About Me</title>
 </head>
 <body>
+    <nav class="nav fixed-top navbar-dark bg-dark" >
+        <a class="navbar-brand" href="../home.html">Home</a>
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active" href="2-website.html">My Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="3-portfolio.html">About Me</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="1-form.html">Contact Me</a>
+           </li>
+        </ul>
+    </nav>
     <div class="container">
-        <h1>Portfolio</h1>
+        <div class="row" id="row-1">
+            <div class="col"> 
+                <h3 id="tempbio">
+                    Bio
+                </h3>
+            </div><!--col-1-->
+            <div class="col">  
+                <h3 id="hobbies">
+                    Hobbies
+                </h3>
+            </div><!--col-2-->
+        </div> <!-- Row -->
 
-        <h3 id="tempbio">
-            Bio
-        </h3>
-        <h3 id="hobbies">
-            Hobbies
-        </h3>
-        <div id="bio">
-            <div id="profile">
-                <h2><u>Who's this?</u></h2> 
-                <img src="http://placekitten.com/200/200" id="profile-pic" width="100px" height="100px"></img>
-            </div> <!-- Profile -->
-
-            <div id="info">
-                <p>
-                    My name is Kevin Pham, I was born and raised in Portland, OR. 
-                    This is my last year at PSU, and I have no clue on what I'm going to do
-                    with a major in computer science since I choose this major because I had no idea what went 
-                    into computer science.
-                    I don't really have any industry experience so I'm hoping I could learn just the 
-                    basic in backend/frontend developing, just so I can see if I like it.
-                    I like to do many different type of things like going to the gym,
-                    learning to cook, and playing games. 
-                </p>
-            </div> <!-- info Id-->
-        </div> <!-- Bio Id -->
-        <div id="likes">
-            <div id="music">
-                <p>
-                    <h3>Music Genre: </h3>
-                    <ul>
-                        <li>Heavy Metal</li>
-                        <li>Jazz Rap</li>
-                        <li>90's hip/hop 'n Rap</li>
-                        <li>Orchestra/instrument</li>
-                    </ul>
-                </p>
-            </div> <!-- Music Id-->
-            <div id="cook">
-                <p>
-                    <h3>
-                        Recipes I would like to learn:
-                    </h3>
+        <div class="row">
+            <div class="col"> 
+                <div id="bio">
+                    <div id="profile">
+                        <h2><u>Who's this?</u></h2> 
+                            <img src="http://placekitten.com/200/200" id="profile-pic" width="100px" height="100px"></img>
+                        </div> <!-- Profile -->
+                    <div id="info">
+                    <p>
+                        No, I'm not a Cat, It's just a placeholder image cause I don't like taking pictures of myself. My name is Kevin Pham, I was born and raised in Portland, OR. 
+                        This is my last year at PSU, and I have no clue on what I'm going to do
+                        with a major in computer science since I choose this major because I had no idea what went 
+                        into computer science.
+                        I don't really have any industry experience so I'm hoping I could learn just the 
+                        basic in backend/frontend developing, just so I can see if I like it.
+                        I like to do many different type of things like going to the gym,
+                        learning to cook, and playing games. 
+                    </p>
+                    </div> <!-- info Id-->
+                </div> <!-- Bio Id -->
+            </div> <!-- col 1 -->
+            <div class="col">
+                <div id="likes">
+                
+                <div id="music">
+                    <p>
+                        <h3>Music Genre: </h3>
                         <ul>
-                            <li>Eggs benedict</li>
-                            <li>Curry</li>
-                            <li>Beef Wellington</li>
-                            <li>Brasied Chicken</li> 
-                            <img src="https://s23991.pcdn.co/wp-content/uploads/2013/02/braised-chicken-root-vegetables-recipe.jpg" 
-                                height="100" width="100"></img>
+                            <li>Heavy Metal</li>
+                            <li>Jazz Rap</li>
+                            <li>90's hip/hop 'n Rap</li>
+                            <li>Orchestra/instrument</li>
                         </ul>
-                </p>
-            </div> <!-- cook id-->
-            <div id="travel">
-                <h3>
-                    Places I'd like to travel to.
-                </h3>
-                <ul>
-                    <li>1</li>
-                    <li>2</li>
-                    <li>3</li>
-                    <li>4</li>
-                </ul>
-            </div> <!-- travel id -->
-            <div id="misc">
-                <h3>
-                    Other things I would like to know
-                </h3>
-                <ul>
-                    <li>1</li>
-                    <li>2</li>
-                    <li>3</li>
-                    <li>4</li>
-                </ul>
-            </div> <!-- misc id -->
-        </div> <!-- likes -->
+                    </p>
+                </div> <!-- Music Id-->
+                <div id="cook">
+                    <p>
+                        <h3>
+                            Recipes I would like to learn:
+                        </h3>
+                            <ul>
+                                <li>Eggs benedict</li>
+                                <li>Curry</li>
+                                <li>Beef Wellington</li>
+                                <li>Brasied Chicken</li> 
+                    
+                            </ul>
+                    </p>
+                </div> <!-- cook id-->
+                <div id="travel">
+                    <h3>
+                        Places I'd like to travel to.
+                    </h3>
+                    <ul>
+                        <li>Palau</li>
+                        <li>Qatar</li>
+                        <li>Chile</li>
+                        <li>Kenya</li>
+                    </ul>
+                </div> <!-- travel id -->
+                <div id="misc">
+                    <h3>
+                        Other things I would like to know
+                    </h3>
+                    <ul>
+                        <li>Snowboarding</li>
+                        <li>Cooking with Spices</li>
+                        <li>Learn German</li>
+                        <li>How to sleep better</li>
+                    </ul>
+                </div> <!-- misc id -->
+            </div> <!-- likes -->
+        </div> <!-- col-2 -->
         <footer id="note"> 
             <b>
                 Note:
