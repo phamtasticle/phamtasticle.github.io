@@ -38,8 +38,8 @@ body {
 #things {
     
 }
-#music {
-    
+#info {
+    padding-top:  14px;
 
 }
 
@@ -52,4 +52,5 @@ h3 {
 }
 
 #note {
+    padding-left: 15px;
 }
