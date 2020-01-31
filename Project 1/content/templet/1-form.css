@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(to top left, rgb(73, 73, 73), orange);
+    background-image: linear-gradient(to top, rgb(73, 73, 73), orange);
     text-align: center;
     font-style: "Open Sans";
     
@@ -12,7 +12,7 @@ form {
     border: none;
     width: 400px;
     font-size: small;
-    height: 470px;
+    height: fill;
     padding-top: 50px;
 }
 fieldset{
