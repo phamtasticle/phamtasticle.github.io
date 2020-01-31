@@ -1,10 +1,21 @@
 body {
     background-image: linear-gradient(to top, rgb(73, 73, 73), orange);
     text-align: center;
-    font-style: "Open Sans";
     
 }
-
+.nav-item {
+    display:inline-block;
+    border-right:2px solid rgb(134, 113, 105);
+}
+.nav-item:last-child {
+    border-right:none;
+}
+.navbar-brand {
+    display:inline-block;
+    border-right:2px solid rgb(134, 113, 105);
+    padding-right: 38px;
+    padding-left: 30px;
+}
 form {
     background-color: white;
     display: inline-block;
