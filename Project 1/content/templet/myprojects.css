@@ -18,6 +18,7 @@ body {
 #card_img {
     width: 290px;
     height: 300px;
+    padding-left: 20px;
 }
 .card-deck {
     color: lightblue;
@@ -31,6 +32,7 @@ body {
     width: 70%;
     height: 60%;
     align-items: center;
+    padding-left: 20px;
 }
 .jumbotron{
     background-image: linear-gradient(to top, rgb(73, 73, 73), orange);
