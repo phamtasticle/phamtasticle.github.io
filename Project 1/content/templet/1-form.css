@@ -10,7 +10,7 @@ form {
     display: inline-block;
     padding: 10px 15px;
     border: none;
-    width: 400px;
+    width: fill;
     font-size: small;
     height: fill;
     padding-top: 50px;
@@ -25,30 +25,12 @@ h2 {
     text-decoration-color: teal ;
 }
 
-.input {
-    word-spacing: 30px;
 
-}
 
-input[type="text"] {
-    background-color: lightgrey;
-    border-radius: 2px;
-}
 
 textarea {
     background-color: lightgrey;
     border-radius: 2px;
 }
-input[type="submit"] {
-    background-color: teal;
-    color: white;
-    transition-duration: .3s;
-    height: 25px;
-    width: 75px;
-    
-}
-input[type="submit"]:hover {
-    background-color: skyblue;
-    
-}
+
 
