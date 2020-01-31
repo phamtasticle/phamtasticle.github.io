@@ -10,10 +10,10 @@ form {
     display: inline-block;
     padding: 10px 15px;
     border: none;
-    width: 300px;
+    width: 400px;
     font-size: small;
     height: 470px;
-
+    padding-top: 50px;
 }
 fieldset{
     text-align: left;
