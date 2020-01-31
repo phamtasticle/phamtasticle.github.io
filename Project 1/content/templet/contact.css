@@ -1,7 +1,9 @@
 body {
     background-image: linear-gradient(to top, rgb(73, 73, 73), orange);
-    text-align: center;
     
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .nav-item {
     display:inline-block;
@@ -24,7 +26,7 @@ form {
     width: fill;
     font-size: small;
     height: fill;
-    padding-top: 50px;
+    
 }
 fieldset{
     text-align: left;
@@ -44,4 +46,9 @@ textarea {
     border-radius: 2px;
 }
 
-
+.btn-outline-secondary {
+    color:red;
+}
+.btn-outline-secondary:hover {
+    background-color: lightcoral;
+}
